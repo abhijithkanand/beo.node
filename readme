@@ -10,11 +10,9 @@ npm install
 ## Usage
 1. Start the application:
 npm start
-
-markdown
-Copy code
-
 - This will start the application using `nodemon` and automatically restart it when changes are made.
 
 2. Access the application:
 - Open a web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the application.
+
+
