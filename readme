@@ -13,7 +13,7 @@ npm start
 - This will start the application using `nodemon` and automatically restart it when changes are made.
 
 2. Access the application:
-- Open a web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the application.
+- Open a web browser and navigate to http://localhost:3000/api/v1.0/hello to access the application.
 
 ## APIs
 The application exposes the following APIs:
