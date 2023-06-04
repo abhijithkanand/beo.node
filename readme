@@ -15,4 +15,25 @@ npm start
 2. Access the application:
 - Open a web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the application.
 
+## APIs
+The application exposes the following APIs:
 
+### Hello API
+- Endpoint: `/hello`
+- Method: GET
+- Description: Returns "Hello World!"
+- Example: http://localhost:3000/api/v1.0/hello
+
+### Sum of Even Numbers API
+- Endpoint: `/sumOfEvenNumbers`
+- Method: POST
+- Description: Calculates the sum of even numbers in an array.
+- Request Body: Provide an array of numbers in the `numbers` key.
+- Example:
+- Endpoint: http://localhost:3000/api/v1.0/sumOfEvenNumbers
+- Request Body:
+ ```json
+ {
+   "numbers": [2, 4, 6, 8, 10]
+ }
+ ```
