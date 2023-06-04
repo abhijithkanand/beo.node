@@ -1,0 +1,26 @@
+ beo.node
+
+## Installation
+1. Clone the repository:
+git clone [repository-url]
+
+markdown
+Copy code
+
+2. Install the dependencies:
+npm install
+
+markdown
+Copy code
+
+## Usage
+1. Start the application:
+npm start
+
+markdown
+Copy code
+
+- This will start the application using `nodemon` and automatically restart it when changes are made.
+
+2. Access the application:
+- Open a web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the application.
